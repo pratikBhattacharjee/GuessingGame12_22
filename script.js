@@ -20,6 +20,7 @@ document.querySelector(".check").addEventListener("click", function () {
       highscore = score;
       document.querySelector(".highscore").textContent = highscore;
     }
+
     //Change the style when correct number is selected
     document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").style.width = "30rem";
